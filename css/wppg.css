@@ -1,0 +1,52 @@
+#wpcontent select[multiple] { 
+ 	height: 8em; 
+}
+
+#wppgcols .wppgcol1 {
+float: left;
+margin: 0 20px 0 5px;
+}
+#wppgcols .wppgcol2 {
+float: left;
+margin: 0 20px 0 5px;
+}
+#wppgcols .wppgcol3 {
+float: left;
+margin: 0 20px 0 5px;
+}
+#wppgcols .wppgcol4 {
+float: left;
+margin: 0;
+}
+
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+
+div.tabupdated,div.taberror{
+	border-width:1px;
+	border-style:solid;
+	padding:0 .6em;
+	margin:5px 15px 2px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	}
+
+div.tabupdated p,div.taberror p{
+	margin:.5em 0;
+	padding:2px;
+	}
+.wrap div.tabupdated,.wrap div.taberror{
+	margin:5px 0 15px;}
+
+.tabupdated{font-size:13px;}
+
+div.tabupdated {
+	background-color:#ffffe0;
+	border-color:#e6db55;
+}

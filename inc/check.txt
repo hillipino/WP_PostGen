@@ -1,0 +1,10 @@
+jquery-ui-core
+jquery-ui-widget
+jquery-ui-tabs
+jquery-ui-button
+jquery-ui-autocomplete
+jquery-ui-datepicker
+jquery-ui-position
+
+ * jQuery UI Menu (not officially released)
+ * jQuery Validation Plugin 1.8.1

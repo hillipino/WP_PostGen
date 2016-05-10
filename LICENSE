@@ -1,0 +1,36 @@
+##########################################################################
+#                                                                        #
+# GPLv3 - (see LICENSE-GPLv3 included in wpPostGen folder)               #
+#                                                                        #
+# wpPostGen is free software you can redistribute it and/or modify       #
+# it under the terms of the GNU General Public License as published by   #
+# the Free Software Foundation, either version 3 of the License, or      #
+# (at your option) any later version.                                    #
+#                                                                        #
+# This program is distributed in the hope that it will be useful,        #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of         #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the          #
+# GNU General Public License for more details.                           #
+#                                                                        #
+##########################################################################
+
+### Additional Credit ###
+
+wpPostGen makes use of FlowPlayer (http://flowplayer.org) when importing
+links / data pointing to a FLV video file on the web.
+
+##########################################################################
+#                                                                        #
+# The Flowplayer Free version (http://flowplayer.org) is released under  #
+# the GNU GENERAL PUBLIC LICENSE Version 3 (GPL). The GPL requires that  #
+# you not remove the Flowplayer copyright notices from the user          #
+# interface. See section 5.d in the LICENSE-GPLv3.                       #
+#                                                                        #
+##########################################################################
+
+### Additional Credit ###
+
+wpPostGen makes use of the PostTagger class made
+available by author Ian Barber at his web site below.
+
+http://phpir.com/part-of-speech-tagging

@@ -1,0 +1,111 @@
+=== wpPostGen ===
+
+wpPostGen (http://wppostgen.wpwares.com) is a WordPress Plugin that will take a
+csv file (e.g. affiliate feeds) and turn it into published / scheduled posts.
+
+== Description ==
+
+wpPostGen is a WordPress Plugin that will take a csv file (e.g. affiliate feeds) 
+and turn it into published / scheduled posts. It provides a powerful yet
+flexible user-interface for defining WordPress column relationships as well as
+real-time manipulation of data while the importing process is taking place. See
+below for a full list of features...
+
+Features:
+
+* jQuery / AJAX / PHP / MySQL technologies to provide an enhanced user-interface
+  and multi-stage import procedure that greatly reduces PHP script execution
+  timeouts from occurring when dealing with large files.
+  
+* Randomize imported lines prior to creating your WordPress Posts. This allows
+  Random generation of your Posts if desired.
+  
+* Supports pipe, comma, tab and semicolon delimited CSV files.
+
+* Ideal for YouTube-like sites or other syndicated content solutions that need
+  to import feeds into WordPress from a downloaded CSV file.
+  
+* Generates posts from a user-defined start date.
+  (defaults to your latest post date)
+
+* Assign labels to your imports so you can easily identify them at a later time
+  and remove if necessary.
+  
+* Powerful and flexible Data Mapping which allows users to define relationships
+  that easily point the imported data to the right WordPress columns in the db.
+  
+* Allows user to generate posts using a set interval of months, weeks, days,
+  hours, and minutes.
+
+* Allows user to specify how many posts per interval of days specified.
+
+* Utilizes Media Library to store your CSV file so you can keep all of your
+  uploaded WordPress files in one area.
+  
+* Supports generating regular posts as well as pages and other custom post types.
+
+* Allows custom defined "theme" mappings. This provides a simple way to always
+  ensure the right data mappings are setup for popular WordPress Themes.
+
+* Also allows existing import data mappings as well so you can choose the same
+  data mappings you have defined in previous imports.
+  
+* Wrap column data during import by specifying before / after text that will
+  prepend / append for each post.
+
+* Select pre-defined widgets that support FLV Player Embed HTML as well as
+  IMG tags. This is idea for column data that provides an image url or flv link
+  and you wish to embed these into your posts for the user to display when not
+  supported by a WordPress theme.
+
+* Create Word / Phrase Replacement Lists that contain Keywords / Phrases that
+  will be replaced with Keywords / Phrases of your choosing.
+  
+* Automatic category generation for posts when included as column in the import
+  file (uses single word or comma separated list of categories).
+
+* Automatic tag generation for posts using part-of-speech tagging to ensure
+  more relevant words are used.
+
+* Specify whether a column's data is required. This will skip lines / rows in
+  your import so they will not generate malformed posts.
+  
+* Leave column relationships blank to skip / ignore that column's data from
+  being imported.
+  
+* Keeps track of the posts generated during an import so if any errors are
+  encountered or you are unhappy with how the data was imported, you can easily
+  remove all posts related to that specific import.
+
+== Installation ==
+
+This section describes how to install the plugin and get it working.
+
+e.g.
+
+1. Upload `wpPostGen` folder to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Getting Started (Usage) ==
+  
+1. First, you will need to upload your CSV import file to the Media Library
+   in WordPress just as you would for any other Media.
+
+2. If you wish to setup Replacement Lists (New Feature), Choose the
+   wpPostGen -> Word Replace Lists menu link to do so now. These Lists can be
+   used during the CSV import to replace Keywords / Phrases of your choosing.
+
+3. Select Add Import Job from the wpPostGen menu to get started.
+  
+== Changelog ==
+
+= 1.0 =
+
+* Initial Release
+
+== License ==
+
+(See Included LICENSE File)
+
+wpPostGen :: Copyright (C) 2011  wpWares
+http://wpwares.com
