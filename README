@@ -1,6 +1,6 @@
 === wpPostGen ===
 
-wpPostGen (http://wppostgen.wpwares.com) is a WordPress Plugin that will take a
+wpPostGen (https://github.com/hillipino/WP_PostGen) is a WordPress Plugin that will take a
 csv file (e.g. affiliate feeds) and turn it into published / scheduled posts.
 
 == Description ==
